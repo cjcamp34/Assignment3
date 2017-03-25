@@ -67,30 +67,13 @@ li a {
 	background-color: aquamarine;
 }
 
-@media only screen and (max-device-width: 480px) {
-		div#wrapper {
-			width: 400px;
-		}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-		div#header {
-			background-image: url(media-queries-phone.jpg);
-			height: 93px;
-			position: relative;
-		}
+}
 
-		div#header h1 {
-			font-size: 140%;
-		}
-
-		#content {
-			float: none;
-			width: 100%;
-		}
-
-		#navigation {
-			float:none;
-			width: auto;
-		}
 	}
 
 </style>
